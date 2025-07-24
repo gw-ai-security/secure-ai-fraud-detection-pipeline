@@ -1,0 +1,2 @@
+timestamp,user_id,amount,country,event_type,hour,day,weekday,amount_scaled
+2025-07-24 10:15:00,USER123,199.5,DE,login,10,24,3,0.0
