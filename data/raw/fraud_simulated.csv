@@ -1,1 +1,2 @@
-
+timestamp,user_id,amount,country,event_type
+2025-07-24 10:15:00,USER123,199.50,DE,login
