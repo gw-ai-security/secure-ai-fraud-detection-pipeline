@@ -1,0 +1,19 @@
+{
+  "categorical_cols": [
+    "country"
+  ],
+  "numeric_cols": [
+    "amount",
+    "hour",
+    "day",
+    "weekday"
+  ],
+  "label_col": null,
+  "used_columns_for_fit": [
+    "amount",
+    "hour",
+    "day",
+    "weekday",
+    "country"
+  ]
+}
