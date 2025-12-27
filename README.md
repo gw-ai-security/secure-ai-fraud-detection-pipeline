@@ -128,8 +128,11 @@ A full-stack AI/ML pipeline for detecting financial fraud in the European bankin
 
 ```bash
 secure-ai-fraud-detection-pipeline/
-│
 ├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── artifacts/
+│
 ├── notebooks/
 │   ├── 01_data_cleaning.ipynb
 │   ├── 02_feature_engineering.ipynb
@@ -137,40 +140,44 @@ secure-ai-fraud-detection-pipeline/
 │   ├── 04_evaluation_metrics.ipynb
 │   ├── 05_explainability_shap.ipynb
 │   ├── 06_privacy_preserving_pipeline.ipynb
-│   └── 07_threat_adversarial_tests.ipynb
+│   └── 07_adversarial_threat_tests.ipynb
 │
 ├── privacy/
+│   ├── README.md
 │   ├── dp_mechanism_demo.py
 │   ├── k_anonymity_demo.py
 │   ├── encryption_demo.py
 │   └── pseudonymization_demo.py
 │
 ├── security/
+│   ├── threat_model.md
 │   ├── threat_model_stride.md
-│   ├── adversarial_test_fgsm.py
 │   ├── model_risk_analysis.md
+│   ├── adversarial_test_fgsm.py
 │   └── incident_response_plan.md
 │
 ├── monitoring/
+│   ├── monitoring_concept.md
 │   ├── drift_monitor.py
 │   ├── logging_strategy.md
-│   ├── incident_response_playbook.md
-│   └── alert_thresholds_config.yaml
+│   ├── alert_thresholds.yaml
+│   └── incident_response_playbook.md
 │
 ├── docs/
+│   ├── project_overview.md
 │   ├── business_use_case.md
+│   ├── business_impact.md
+│   ├── compliance_mapping.md
 │   ├── gdpr_mapping_table.md
 │   ├── psd2_mapping_table.md
 │   ├── ai_act_ce_declaration_draft.md
-│   ├── compliance_mapping.md
-│   ├── business_impact.md
 │   └── faq.md
 │
 ├── executive/
 │   ├── executive_summary_phase1.md
 │   ├── roi_model.xlsx
-│   ├── consulting_deck.pdf
 │   ├── certification_alignment.md
+│   ├── consulting_deck.pdf
 │   └── linkedin_post_draft.txt
 │
 ├── thought_leadership/
@@ -178,10 +185,15 @@ secure-ai-fraud-detection-pipeline/
 │   ├── linkedin_series.md
 │   └── conference_pitch_deck.pptx
 │
-└── framework/
-    ├── audit_report_template.md
-    ├── dpo_interview_guide.md
-    └── stakeholder_comm_playbook.md
+├── framework/
+│   ├── audit_report_template.md
+│   ├── dpo_interview_guide.md
+│   └── stakeholder_comm_playbook.md
+│
+├── README.md
+├── requirements.txt
+└── LICENSE
+
 ```
 
 
