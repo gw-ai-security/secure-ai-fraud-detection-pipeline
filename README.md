@@ -58,3 +58,10 @@ secure-ai-fraud-detection-pipeline/
     ├── dpo_interview_guide.md
     └── stakeholder_comm_playbook.md
 ```
+
+## Quickstart
+1. Clone repository
+2. Install dependencies
+3. Run notebooks 01–02
+4. Inspect generated features
+
