@@ -3,17 +3,11 @@
     "country"
   ],
   "numeric_cols": [
-    "amount",
-    "hour",
-    "day",
-    "weekday"
+    "amount"
   ],
-  "label_col": null,
+  "label_col": "is_fraud",
   "used_columns_for_fit": [
     "amount",
-    "hour",
-    "day",
-    "weekday",
     "country"
   ]
 }

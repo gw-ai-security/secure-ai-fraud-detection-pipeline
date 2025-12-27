@@ -1,7 +1,13 @@
 [
   "amount",
-  "hour",
-  "day",
-  "weekday",
-  "country_DE"
+  "country_AT",
+  "country_CH",
+  "country_DE",
+  "country_ES",
+  "country_FR",
+  "country_GB",
+  "country_IT",
+  "country_NL",
+  "country_PL",
+  "country_US"
 ]
