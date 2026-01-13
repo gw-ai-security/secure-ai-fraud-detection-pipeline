@@ -1,57 +1,35 @@
-# Project Overview – Secure AI Fraud Detection Pipeline
+# Project Overview - Secure AI Fraud Detection Pipeline
 
-## Purpose of this Project
-This repository is a **learning and portfolio project** that simulates how an AI-based fraud detection system can be designed in a **regulated EU banking environment**.
+## Purpose
+This repository is a learning and portfolio project that simulates how an AI-based fraud detection system can be designed for a regulated EU banking environment.
 
-The goal is **not** to claim production readiness or legal compliance, but to demonstrate:
-- structured thinking,
-- secure and privacy-aware ML engineering,
-- and audit-ready artefact creation.
+The goal is not production readiness or legal compliance. The goal is to demonstrate:
+- structured ML engineering thinking,
+- security and privacy awareness,
+- audit-ready documentation and artifacts.
 
-All data used in this project is **synthetic**.
-
----
+All data used in this project is synthetic.
 
 ## Problem Statement (Simulated)
 Financial institutions must detect suspicious transactions early while complying with:
-- strict data protection requirements (GDPR),
-- operational risk controls,
-- and increasing AI governance obligations.
+- GDPR data protection rules,
+- PSD2 security and monitoring obligations,
+- emerging AI governance requirements (EU AI Act).
 
-This project simulates that challenge by building a **fraud detection pipeline** from raw events to model-ready features.
-
----
-
-## Why Synthetic Data?
-Real banking data cannot be shared publicly.
-
-Therefore:
-- all datasets are **synthetically generated**,
-- schemas resemble realistic transaction data,
-- no personal identifiable information (PII) is used.
-
-This allows safe experimentation while keeping the project **GDPR-friendly by design**.
-
----
+This project simulates that challenge by building a fraud detection pipeline from raw events to model-ready features.
 
 ## Pipeline Overview
-
 High-level flow:
+1. Data ingestion and validation.
+2. Data cleaning (`notebooks/01_data_cleaning.ipynb`).
+3. Feature engineering (`notebooks/02_feature_engineering.ipynb`).
+4. Training and evaluation (`notebooks/03_model_training.ipynb`).
+5. Monitoring and governance documentation.
 
-1. **Data Ingestion**
-2. **Data Cleaning (`01_data_cleaning.ipynb`)**
-3. **Feature Engineering (`02_feature_engineering.ipynb`)**
-4. **Artefact Export**
-5. **Train/Test Split**
-
----
-
-## Key Design Principles
+## Design Principles
 - Security-by-Design
 - Privacy-by-Design
-- Audit Readiness
-
----
+- Audit readiness
 
 ## Target Audience
-Recruiters, security-aware data science teams, and regulated industry environments.
+Recruiters, security-aware data science teams, and learners interested in regulated ML systems.
